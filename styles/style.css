@@ -32,16 +32,22 @@
 
 .title{
   width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
   z-index: 1;
 }
 
 .title__place_header{
-  margin-left: 64px;;
+  margin-left: 64px;
   align-self: center;
 }
 
 .subtitle{
   width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
   z-index: 1;
 }
 
@@ -79,6 +85,146 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns{
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.two-columns__place_description{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.first-column{
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  min-height: 100%;
+}
+
+.first-column__place_two-cloumns{
+
+}
+
+.second-column{
+  width: 80%;
+  min-width: 784px;
+}
+.second-column__place_two-columns{
+
+}
+
+.text{
+ line-height: 34px;
+ font-size: 24px;
+}
+
+.text1{
+  font-weight: normal;
+  margin: 0 0 30px 0;
+}
+
+.text2{
+  font-weight: normal;
+  margin: 0 0 30px 0;
+}
+
+.text2::before{
+  content: 'Вывод:';
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text3{
+  font-weight: normal;
+  margin: 0;
+}
+
+.digits{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  width: 60%;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+
+.section-title__place_digits{
+
+}
+
+.section-subtitle{
+  background-color: aquamarine;
+  margin: 0;
+}
+
+.section-subtitle__place_digits{
+
+}
+
+.table{
+
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+  margin: 0 auto 100px auto;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.table__place_digits{
+
+}
+
+.cell{
+  width: 250px;
+  background-color: aquamarine;
+}
+
+.cell__place_table{
+
+}
+
+.heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.heading__place_table{
+
+}
+.text{
+  line-height: 1.25;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0 0;
+}
+.text__place_table{
+
 }
 
 /* и элемента с модификатором вида ключ-значение */
