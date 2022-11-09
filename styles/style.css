@@ -188,7 +188,7 @@
   width: 1100px;
   display: flex;
   flex-direction: row;
-  align-items:center;
+
   justify-content: space-between;
 
   flex-wrap: wrap;
@@ -298,18 +298,10 @@
  margin-bottom: 90px;
 }
 
-.cell__place_table{
 
 
-}
 
-.heading__place_table{
 
-}
-
-.text__place_table{
-
-}
 
 .section-title_theme_dark{
   color: white;
