@@ -190,7 +190,7 @@
   flex-direction: row;
   align-items:center;
   justify-content: space-between;
-  align-items: flex-start;
+
   flex-wrap: wrap;
   align-items: stretch;
 }
@@ -219,14 +219,12 @@
 
 }
 
-.text{
+
+.text__place_table{
   line-height: 1.25;
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0 0;
-}
-.text__place_table{
-
 }
 
 
@@ -402,7 +400,7 @@
 }
 
 .column-heading{
-  margin: 0 0 20px 0;
+
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
